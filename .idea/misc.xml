@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable-v24/promo.xml" value="0.191" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable-v24/promobot.xml" value="0.191" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable-v24/rounded_saldo_shape.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/gradientstarbox.xml" value="0.191" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.1855" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_explore_24.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1855" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_local_taxi_24.xml" value="0.1815" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.1855" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_smartphone_24.xml" value="0.197" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_sports_motorsports_24.xml" value="0.1815" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.1815" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_round_monetization_on_grey.xml" value="0.1855" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/round_rect_shape.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/round_square_transaksi.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/rounded_square_shape.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/rounded_star_shape.xml" value="0.204" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/layout/activity_main.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
