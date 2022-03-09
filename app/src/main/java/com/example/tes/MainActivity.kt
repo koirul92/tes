@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
             message()
         }
         promoo.setOnClickListener {
-            message()
+            setContentView(R.layout.fragment_first)
         }
         home.setOnClickListener {
             message()

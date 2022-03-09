@@ -29,4 +29,6 @@
     <string name="chat">Chat</string>
     <string name="ini_promo">Ini Promo</string>
     <string name="blabla">blabla</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
