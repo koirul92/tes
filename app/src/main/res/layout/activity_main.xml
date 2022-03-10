@@ -65,7 +65,7 @@
         android:layout_marginTop="6dp"
         android:id="@+id/transactionmenu"
         android:layout_width="match_parent"
-        android:layout_height="128dp">
+        android:layout_height="96dp">
 
         <ImageView
             android:id="@+id/transaksimenubox"
@@ -76,7 +76,7 @@
             android:layout_marginEnd="8dp"
             android:src="@drawable/round_square_transaksi"
             android:layout_width="match_parent"
-            android:layout_height="128dp"
+            android:layout_height="96dp"
             android:contentDescription="@string/blabla" />
         <ImageView
             android:id="@+id/saldo"
@@ -86,7 +86,7 @@
             app:layout_constraintBottom_toBottomOf="@id/transaksimenubox"
             app:layout_constraintStart_toStartOf="@id/transaksimenubox"
             android:layout_width="128dp"
-            android:layout_height="96dp"
+            android:layout_height="80dp"
             android:contentDescription="@string/blabla" />
         <ImageButton
             android:contentDescription="@string/blabla"
@@ -482,7 +482,6 @@
             app:layout_constraintTop_toTopOf="@id/starbox"
             app:layout_constraintBottom_toBottomOf="@id/starbox"
             app:layout_constraintEnd_toEndOf="@id/starbox"
-            app:layout_constraintStart_toEndOf="@id/progress"
             android:src="@drawable/ic_baseline_arrow_forward_ios_24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
