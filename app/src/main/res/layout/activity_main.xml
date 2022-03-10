@@ -489,9 +489,12 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
         android:id="@+id/access"
         app:layout_constraintTop_toBottomOf="@id/starmember"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/promobox"
         android:textStyle="bold"
         android:textSize="24sp"
         android:layout_marginStart="6dp"
@@ -598,49 +601,80 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/box_voucher"
+    <ScrollView
+        app:layout_constraintTop_toBottomOf="@id/promobox"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/promobox"
-        app:layout_constraintBottom_toTopOf="@id/linetopfooter"
+        android:layout_marginTop="6dp"
+        android:id="@+id/scrollpromo"
+        android:fillViewport="true"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="128dp">
 
-        <ImageButton
-            android:contentDescription="@string/blabla"
-            android:id="@+id/promooo"
-            android:backgroundTint="@color/none"
-            app:layout_constraintTop_toTopOf="@id/box_voucher"
-            app:layout_constraintStart_toStartOf="@id/box_voucher"
-            app:layout_constraintEnd_toEndOf="@id/box_voucher"
-            app:layout_constraintBottom_toBottomOf="@id/box_voucher"
-            android:src="@drawable/round_square_transaksi"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/box_voucher"
             android:layout_width="match_parent"
-            android:layout_height="96dp"/>
+            android:layout_height="512dp">
 
-        <TextView
-            android:id="@+id/inipromo"
-            app:layout_constraintTop_toTopOf="@id/promooo"
-            app:layout_constraintBottom_toBottomOf="@id/promooo"
-            app:layout_constraintStart_toStartOf="@id/promooo"
-            app:layout_constraintEnd_toEndOf="@id/promooo"
-            android:textStyle="bold"
-            android:textSize="24sp"
-            android:text="@string/ini_promo"
-            android:textAlignment="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            <ImageButton
+                android:contentDescription="@string/blabla"
+                android:id="@+id/promooo"
+                android:backgroundTint="@color/none"
+                app:layout_constraintTop_toTopOf="@id/box_voucher"
+                app:layout_constraintStart_toStartOf="@id/box_voucher"
+                app:layout_constraintEnd_toEndOf="@id/box_voucher"
+                android:src="@drawable/round_square_transaksi"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"/>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:layout_marginBottom="8dp"
+                android:id="@+id/inipromo"
+                app:layout_constraintBottom_toBottomOf="@id/promooo"
+                app:layout_constraintStart_toStartOf="@id/promooo"
+                app:layout_constraintEnd_toEndOf="@id/promooo"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="@string/ini_promo"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:contentDescription="@string/blabla"
+                android:id="@+id/promooo2"
+                android:backgroundTint="@color/none"
+                app:layout_constraintTop_toBottomOf="@id/promooo"
+                app:layout_constraintStart_toStartOf="@id/promooo"
+                app:layout_constraintEnd_toEndOf="@id/promooo"
+                android:src="@drawable/round_square_transaksi"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"/>
+
+            <TextView
+                android:id="@+id/inipromo2"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/promooo2"
+                app:layout_constraintStart_toStartOf="@id/promooo2"
+                app:layout_constraintEnd_toEndOf="@id/promooo2"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="@string/ini_promo"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/footer"
-        app:layout_constraintTop_toBottomOf="@id/linetopfooter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -746,11 +780,5 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/linetopfooter"
-        app:layout_constraintGuide_percent=".88"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         val chat = findViewById<ImageButton>(R.id.buttonchat)
 
         akun.setOnClickListener {
-            message()
+            setContentView(R.layout.activity_tokped)
         }
         bayar.setOnClickListener {
             message()
@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
             message()
         }
         promoo.setOnClickListener {
-            setContentView(R.layout.fragment_first)
+            setContentView(R.layout.activity_tokped)
         }
         home.setOnClickListener {
             message()
@@ -90,6 +90,7 @@ class MainActivity : AppCompatActivity() {
         chat.setOnClickListener {
             message()
         }
+
     }
     private fun message(){
         Toast.makeText(applicationContext, "Cuma coba coba", Toast.LENGTH_SHORT).show()
