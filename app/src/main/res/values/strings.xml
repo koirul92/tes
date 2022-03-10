@@ -48,4 +48,15 @@
     <string name="iklan">Yang Wajib \n Saat Musim Hujan\n Diskon Hingga 90%</string>
     <string name="ini_video">Ini Video</string>
     <string name="diskon_20">diskon 20%</string>
+    <string name="tokopedia_seru">Tokopedia\nSeru</string>
+    <string name="liveshop">Live\nShopping</string>
+    <string name="bazar_hari_nini">Bazar Hari\nini</string>
+    <string name="bangga_nlokal">Bangga\nLokal</string>
+    <string name="peduli">Peduli\nLindungi</string>
+    <string name="hometok">Home</string>
+    <string name="feed">Feed</string>
+    <string name="official_store2">Official Store</string>
+    <string name="whislist">Whislist</string>
+    <string name="tran">Transaksi</string>
+    <string name="harga"><b>Rp 69.900</b>\n <u>Rp 94.900</u>-\n Jakarta Barat</string>
 </resources>

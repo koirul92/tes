@@ -437,29 +437,27 @@
             android:id="@+id/xp"
             app:layout_constraintTop_toTopOf="@id/starbox"
             app:layout_constraintStart_toEndOf="@id/star_i"
-            app:layout_constraintBottom_toTopOf="@id/progress"
+            app:layout_constraintBottom_toTopOf="@id/progressBar"
             android:text="@string/xp"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-
-        <TextView
-            android:id="@+id/progress"
+        <ProgressBar
+            android:id="@+id/progressBar"
             app:layout_constraintTop_toBottomOf="@id/xp"
             app:layout_constraintStart_toEndOf="@id/star_i"
             app:layout_constraintBottom_toTopOf="@id/jampasir"
-            android:text="@string/bar"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content" />
+
 
         <ImageView
             android:contentDescription="@string/blabla"
             android:id="@+id/jampasir"
             android:src="@drawable/ic_round_access_time_24"
-            app:layout_constraintTop_toBottomOf="@id/progress"
+            app:layout_constraintTop_toBottomOf="@id/progressBar"
             app:layout_constraintStart_toEndOf="@id/star_i"
             app:layout_constraintBottom_toBottomOf="@id/starbox"
             android:layout_width="wrap_content"

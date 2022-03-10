@@ -9,10 +9,13 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable-v24/rounded_saldo_shape.xml" value="0.1615" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/bg_gradient_tokped.xml" value="0.159" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/bgtime.xml" value="0.159" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/diskonbg.xml" value="0.174" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/gradientstarbox.xml" value="0.191" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.159" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_blur_circular_24.xml" value="0.174" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.1855" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_check_box_24.xml" value="0.174" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_explore_24.xml" value="0.1615" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1855" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_local_taxi_24.xml" value="0.1815" />
@@ -20,9 +23,18 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_smartphone_24.xml" value="0.197" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_sports_motorsports_24.xml" value="0.1815" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.1815" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_feed.xml" value="0.174" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_kebutuhanharian.xml" value="0.174" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_produkdiskon.xml" value="0.174" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_round_access_time_24.xml" value="0.159" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_round_monetization_on_grey.xml" value="0.1855" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_transaksi.xml" value="0.174" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_videolive.xml" value="0.174" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/ic_whislist.xml" value="0.174" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/lihat48.xml" value="0.174" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/peduli.xml" value="0.174" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/phonetab.xml" value="0.174" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/promo_scroll.xml" value="0.159" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/promoscroll.xml" value="0.159" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/round_rect_shape.xml" value="0.1615" />
@@ -31,8 +43,9 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/rounded_star_shape.xml" value="0.204" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/tokped_dana.xml" value="0.19" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/videoscroll.xml" value="0.159" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/layout/activity_tokped.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/drawable/videoscrollbg.xml" value="0.174" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/layout/activity_tokped.xml" value="0.33" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/tes/app/src/main/res/layout/fragment_first.xml" value="0.25" />
       </map>
     </option>

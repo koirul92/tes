@@ -4,7 +4,9 @@
     <size android:width="128dp"
         android:height="96dp"/>
 
-    <solid android:color="@color/skyblue"/>
+    <solid android:color="#A8A8A8"/>
     <corners android:radius="8dp"/>
+    <stroke android:width="0.8dp"
+        android:color="@color/black"/>
 
 </shape>

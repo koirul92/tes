@@ -1,14 +1,23 @@
 package com.example.tes
 
+import android.animation.ObjectAnimator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import android.widget.ImageButton
+import android.widget.ProgressBar
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val progressBar = findViewById<ProgressBar>(R.id.progressBar)
+        progressBar.max = 100
+        val currentProgress = 40
+        ObjectAnimator.ofInt(progressBar,"progress",currentProgress)
+            .setDuration(2000)
+            .start()
+
         val akun = findViewById<ImageButton>(R.id.accountcircle)
         val bayar = findViewById<ImageButton>(R.id.buttonbayar)
         val isi = findViewById<ImageButton>(R.id.buttonisi)

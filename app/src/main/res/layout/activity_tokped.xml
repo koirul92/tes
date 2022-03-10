@@ -219,7 +219,7 @@
             app:layout_constraintTop_toTopOf="@id/fitur1box"
             app:layout_constraintStart_toEndOf="@id/offstore"
             app:layout_constraintEnd_toStartOf="@id/kebutuhanharian"
-            android:src="@drawable/offstore"
+            android:src="@drawable/lihat48"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -239,7 +239,7 @@
             app:layout_constraintEnd_toStartOf="@id/handphonetablet"
             app:layout_constraintTop_toTopOf="@id/fitur1box"
             app:layout_constraintStart_toEndOf="@id/lihatsemua"
-            android:src="@drawable/offstore"
+            android:src="@drawable/ic_kebutuhanharian"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -259,7 +259,7 @@
             app:layout_constraintTop_toTopOf="@id/fitur1box"
             app:layout_constraintStart_toEndOf="@id/kebutuhanharian"
             app:layout_constraintEnd_toStartOf="@id/topup"
-            android:src="@drawable/offstore"
+            android:src="@drawable/phonetab"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -278,7 +278,7 @@
             app:layout_constraintTop_toTopOf="@id/fitur1box"
             app:layout_constraintStart_toEndOf="@id/handphonetablet"
             app:layout_constraintEnd_toStartOf="@id/keuangan"
-            android:src="@drawable/offstore"
+            android:src="@drawable/ic_topup"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -297,7 +297,7 @@
             app:layout_constraintStart_toEndOf="@id/topup"
             app:layout_constraintTop_toTopOf="@id/fitur1box"
             app:layout_constraintEnd_toEndOf="@id/fitur1box"
-            android:src="@drawable/offstore"
+            android:src="@drawable/ic_keuangan"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -387,7 +387,7 @@
             app:layout_constraintTop_toTopOf="@id/fitur2box"
             app:layout_constraintStart_toStartOf="@id/fitur2box"
             app:layout_constraintEnd_toStartOf="@id/bangga"
-            android:src="@drawable/offstore"
+            android:src="@drawable/peduli"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -395,7 +395,7 @@
             app:layout_constraintTop_toBottomOf="@id/pedulilindungi"
             app:layout_constraintStart_toStartOf="@id/pedulilindungi"
             app:layout_constraintEnd_toEndOf="@id/pedulilindungi"
-            android:text="@string/official_store"
+            android:text="@string/peduli"
             android:textAlignment="center"
             android:textSize="12sp"
             android:textColor="@color/black"
@@ -407,7 +407,7 @@
             app:layout_constraintTop_toTopOf="@id/fitur2box"
             app:layout_constraintStart_toEndOf="@id/pedulilindungi"
             app:layout_constraintEnd_toStartOf="@id/bazar"
-            android:src="@drawable/offstore"
+            android:src="@drawable/ic_bangga"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -415,7 +415,7 @@
             app:layout_constraintTop_toBottomOf="@id/bangga"
             app:layout_constraintStart_toStartOf="@id/bangga"
             app:layout_constraintEnd_toEndOf="@id/bangga"
-            android:text="@string/lihat_semua"
+            android:text="@string/bangga_nlokal"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
@@ -426,7 +426,7 @@
             app:layout_constraintEnd_toStartOf="@id/liveshop"
             app:layout_constraintTop_toTopOf="@id/fitur2box"
             app:layout_constraintStart_toEndOf="@id/bangga"
-            android:src="@drawable/offstore"
+            android:src="@drawable/ic_bazar"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -434,7 +434,7 @@
             app:layout_constraintTop_toBottomOf="@id/bazar"
             app:layout_constraintStart_toStartOf="@id/bazar"
             app:layout_constraintEnd_toEndOf="@id/bazar"
-            android:text="@string/kebutuhan_harian"
+            android:text="@string/bazar_hari_nini"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
@@ -445,7 +445,7 @@
             app:layout_constraintTop_toTopOf="@id/fitur2box"
             app:layout_constraintStart_toEndOf="@id/bazar"
             app:layout_constraintEnd_toStartOf="@id/tokpedseru"
-            android:src="@drawable/offstore"
+            android:src="@drawable/ic_liveshop"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -453,7 +453,7 @@
             app:layout_constraintTop_toBottomOf="@id/liveshop"
             app:layout_constraintStart_toStartOf="@id/liveshop"
             app:layout_constraintEnd_toEndOf="@id/liveshop"
-            android:text="@string/handphone"
+            android:text="@string/liveshop"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="12sp"
@@ -464,7 +464,7 @@
             app:layout_constraintStart_toEndOf="@id/liveshop"
             app:layout_constraintTop_toTopOf="@id/fitur2box"
             app:layout_constraintEnd_toEndOf="@id/fitur2box"
-            android:src="@drawable/offstore"
+            android:src="@drawable/ic_tokpedseru"
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"/>
@@ -472,7 +472,7 @@
             app:layout_constraintTop_toBottomOf="@id/tokpedseru"
             app:layout_constraintStart_toStartOf="@id/tokpedseru"
             app:layout_constraintEnd_toEndOf="@id/tokpedseru"
-            android:text="@string/keuangan"
+            android:text="@string/tokopedia_seru"
             android:textAlignment="center"
             android:textSize="12sp"
             android:textColor="@color/black"
@@ -521,6 +521,14 @@
                 android:src="@drawable/videoscroll"
                 tools:ignore="NotSibling" />
             <ImageView
+                app:layout_constraintTop_toTopOf="@id/video1"
+                app:layout_constraintStart_toStartOf="@id/video1"
+                app:layout_constraintEnd_toEndOf="@id/video1"
+                app:layout_constraintBottom_toBottomOf="@id/video1"
+                android:src="@drawable/ic_videolive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
                 android:id="@+id/bgvideo1"
                 android:layout_marginStart="4dp"
                 app:layout_constraintStart_toStartOf="@id/video1teksbg"
@@ -565,6 +573,14 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/videoscroll"
                 tools:ignore="NotSibling" />
+            <ImageView
+                app:layout_constraintTop_toTopOf="@id/video2"
+                app:layout_constraintStart_toStartOf="@id/video2"
+                app:layout_constraintEnd_toEndOf="@id/video2"
+                app:layout_constraintBottom_toBottomOf="@id/video2"
+                android:src="@drawable/ic_videolive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
             <ImageView
                 android:id="@+id/bgvideo2"
                 android:layout_marginStart="4dp"
@@ -611,6 +627,14 @@
                 android:src="@drawable/videoscroll"
                 tools:ignore="NotSibling" />
             <ImageView
+                app:layout_constraintTop_toTopOf="@id/video3"
+                app:layout_constraintStart_toStartOf="@id/video3"
+                app:layout_constraintEnd_toEndOf="@id/video3"
+                app:layout_constraintBottom_toBottomOf="@id/video3"
+                android:src="@drawable/ic_videolive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
                 android:id="@+id/bgvideo3"
                 android:layout_marginStart="4dp"
                 app:layout_constraintStart_toStartOf="@id/video3teksbg"
@@ -655,6 +679,14 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/videoscroll"
                 tools:ignore="NotSibling" />
+            <ImageView
+                app:layout_constraintTop_toTopOf="@id/video4"
+                app:layout_constraintStart_toStartOf="@id/video4"
+                app:layout_constraintEnd_toEndOf="@id/video4"
+                app:layout_constraintBottom_toBottomOf="@id/video4"
+                android:src="@drawable/ic_videolive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
             <ImageView
                 android:id="@+id/bgvideo4"
                 android:layout_marginStart="4dp"
@@ -762,7 +794,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="match_parent"
-        android:layout_height="64dp"
+        android:layout_height="72dp"
         android:layout_marginTop="8dp"
         android:src="@drawable/bg_gradient_tokped"/>
 
@@ -788,6 +820,23 @@
                 android:src="@drawable/promo_scroll"
                 tools:ignore="NotSibling" />
             <ImageView
+                app:layout_constraintTop_toTopOf="@id/promo1"
+                app:layout_constraintStart_toStartOf="@id/promo1"
+                app:layout_constraintEnd_toEndOf="@id/promo1"
+                android:src="@drawable/ic_produkdiskon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                app:layout_constraintBottom_toTopOf="@id/progressBar1"
+                app:layout_constraintStart_toStartOf="@id/promo1"
+                app:layout_constraintEnd_toEndOf="@id/promo1"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:text="@string/harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
                 android:id="@+id/promo2"
                 android:layout_marginHorizontal="4dp"
                 app:layout_constraintTop_toTopOf="@id/promo1"
@@ -797,6 +846,23 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/promo_scroll"
                 tools:ignore="NotSibling" />
+            <ImageView
+                app:layout_constraintTop_toTopOf="@id/promo2"
+                app:layout_constraintStart_toStartOf="@id/promo2"
+                app:layout_constraintEnd_toEndOf="@id/promo2"
+                android:src="@drawable/ic_produkdiskon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                app:layout_constraintBottom_toTopOf="@id/progressBar2"
+                app:layout_constraintStart_toStartOf="@id/promo2"
+                app:layout_constraintEnd_toEndOf="@id/promo2"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:text="@string/harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
             <ImageView
                 android:id="@+id/promo3"
                 android:layout_marginHorizontal="4dp"
@@ -808,6 +874,23 @@
                 android:src="@drawable/promo_scroll"
                 tools:ignore="NotSibling" />
             <ImageView
+                app:layout_constraintTop_toTopOf="@id/promo3"
+                app:layout_constraintStart_toStartOf="@id/promo3"
+                app:layout_constraintEnd_toEndOf="@id/promo3"
+                android:src="@drawable/ic_produkdiskon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                app:layout_constraintBottom_toTopOf="@id/progressBar3"
+                app:layout_constraintStart_toStartOf="@id/promo3"
+                app:layout_constraintEnd_toEndOf="@id/promo3"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:text="@string/harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
                 android:id="@+id/promo4"
                 android:layout_marginHorizontal="4dp"
                 app:layout_constraintTop_toTopOf="@id/promo3"
@@ -817,6 +900,56 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/promo_scroll"
                 tools:ignore="NotSibling" />
+
+            <ImageView
+                app:layout_constraintTop_toTopOf="@id/promo4"
+                app:layout_constraintStart_toStartOf="@id/promo4"
+                app:layout_constraintEnd_toEndOf="@id/promo4"
+                android:src="@drawable/ic_produkdiskon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                app:layout_constraintBottom_toTopOf="@id/progressBar4"
+                app:layout_constraintStart_toStartOf="@id/promo4"
+                app:layout_constraintEnd_toEndOf="@id/promo4"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:text="@string/harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                app:layout_constraintBottom_toBottomOf="@id/promo1"
+                app:layout_constraintStart_toStartOf="@id/promo1"
+                app:layout_constraintEnd_toEndOf="@id/promo1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content" />
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                app:layout_constraintBottom_toBottomOf="@id/promo2"
+                app:layout_constraintStart_toStartOf="@id/promo2"
+                app:layout_constraintEnd_toEndOf="@id/promo2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content" />
+            <ProgressBar
+                android:id="@+id/progressBar3"
+                app:layout_constraintBottom_toBottomOf="@id/promo3"
+                app:layout_constraintStart_toStartOf="@id/promo3"
+                app:layout_constraintEnd_toEndOf="@id/promo3"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content" />
+            <ProgressBar
+                android:id="@+id/progressBar4"
+                app:layout_constraintBottom_toBottomOf="@id/promo4"
+                app:layout_constraintStart_toStartOf="@id/promo4"
+                app:layout_constraintEnd_toEndOf="@id/promo4"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </HorizontalScrollView>
 
@@ -829,11 +962,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/footer"
-        app:layout_constraintTop_toBottomOf="@id/line_b"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -855,7 +986,7 @@
             app:layout_constraintTop_toBottomOf="@id/buttonhome"
             app:layout_constraintStart_toStartOf="@id/buttonhome"
             app:layout_constraintEnd_toEndOf="@id/buttonhome"
-            android:text="@string/home"
+            android:text="@string/hometok"
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/black"
@@ -872,7 +1003,7 @@
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/ic_round_monetization_on_grey"/>
+            android:src="@drawable/ic_feed"/>
 
         <TextView
             android:id="@+id/disclet"
@@ -880,7 +1011,7 @@
             app:layout_constraintStart_toStartOf="@id/buttondisc"
             app:layout_constraintEnd_toEndOf="@id/buttondisc"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:text="@string/discount"
+            android:text="@string/feed"
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/black"
@@ -897,7 +1028,7 @@
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/ic_baseline_menu_book_24"/>
+            android:src="@drawable/ic_baseline_check_box_24"/>
 
         <TextView
             android:id="@+id/orderlet"
@@ -905,9 +1036,9 @@
             app:layout_constraintTop_toBottomOf="@id/buttonorder"
             app:layout_constraintStart_toStartOf="@id/buttonorder"
             app:layout_constraintEnd_toEndOf="@id/buttonorder"
-            android:text="@string/pesanan"
+            android:text="@string/official_store2"
             android:textStyle="bold"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -922,7 +1053,7 @@
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/ic_baseline_menu_book_24"/>
+            android:src="@drawable/ic_whislist"/>
 
         <TextView
             android:id="@+id/b"
@@ -930,7 +1061,7 @@
             app:layout_constraintTop_toBottomOf="@id/a"
             app:layout_constraintStart_toStartOf="@id/a"
             app:layout_constraintEnd_toEndOf="@id/a"
-            android:text="@string/pesanan"
+            android:text="@string/whislist"
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/black"
@@ -947,7 +1078,7 @@
             android:backgroundTint="@color/none"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/ic_baseline_chat_24"/>
+            android:src="@drawable/ic_transaksi"/>
 
         <TextView
             android:id="@+id/chatlet"
@@ -955,7 +1086,7 @@
             app:layout_constraintTop_toBottomOf="@id/buttonchat"
             app:layout_constraintStart_toStartOf="@id/buttonchat"
             app:layout_constraintEnd_toEndOf="@id/buttonchat"
-            android:text="@string/chat"
+            android:text="@string/tran"
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/black"
